@@ -2,7 +2,6 @@ from collections import deque
 
 def rr(processes, quantum=2):
     processes = sorted(processes, key=lambda p: p.arrival_time)
-    
     queue = deque()
     current_time = 0
     remaining_burst = {p.pid: p.burst_time for p in processes}
