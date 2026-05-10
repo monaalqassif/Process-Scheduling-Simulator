@@ -1,1 +1,1 @@
-A full-stack interactive web simulator for visualizing and comparing CPU scheduling algorithms (FCFS, SJF, RR) using Python and Flask.
+Interactive CPU Scheduling Simulator visualizing Gantt charts and performance metrics (Wait/TAT) for FCFS, SJF, RR, and Priority algorithms using Flask.
